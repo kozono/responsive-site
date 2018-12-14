@@ -27,7 +27,7 @@ html{
 }
 
 body{ 
-font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;    font-family:'Abel'sans-serif'游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN;
+font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
         font-size: 1.4rem;
     line-height: 1.6;
     letter-spacing: .1em;
@@ -58,9 +58,13 @@ text-align: center;
 
 
 
-.topphoto img { width: 100%; 
-margin-bottom : -5px;
-    
+
+.topphoto {
+  background-image: url("img/top.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
 }
 
 
@@ -82,7 +86,7 @@ section h2
     display: -webkit-flex;
     display:         flex;
     
-    justify-content: spece-between;
+    justify-content: space-between;
        -webkit-flex-direction: column;
     flex-direction: column;
 }
